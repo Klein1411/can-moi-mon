@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Data và cache
+data/*
+!data/.gitkeep
+.cache/
+huggingface_cache/
+
+# Model
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.onnx
+
+# Results
+results/*
+!results/.gitkeep
+
+# OS
+Thumbs.db
+.DS_Store

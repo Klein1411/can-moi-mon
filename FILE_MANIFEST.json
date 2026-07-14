@@ -1,0 +1,132 @@
+[
+  {
+    "path": ".editorconfig",
+    "size_bytes": 184,
+    "sha256": "e940650c4e6099385188dc1d89dc11673f827ad80a9465acc3e9c8a51b412f05"
+  },
+  {
+    "path": ".gitattributes",
+    "size_bytes": 147,
+    "sha256": "03cd9311b4905788f5ab24cbbbc6887a1a654919fbc18970f8fd2b6ad746a05a"
+  },
+  {
+    "path": ".gitignore",
+    "size_bytes": 289,
+    "sha256": "8bfdb9eee583a8037eda7bffaf64c70d6c268ebb8ac4346df726c917919681ec"
+  },
+  {
+    "path": "AGENTS.md",
+    "size_bytes": 3799,
+    "sha256": "f599c1bf370a6b94e12e0b63b8950da92513ffd061b89f24fbadf786bab25842"
+  },
+  {
+    "path": "CODEX_PROMPT.md",
+    "size_bytes": 1854,
+    "sha256": "3f567de4225259feae9fd73f98925ae6a190d3836cbef2a2902845a062eb13b5"
+  },
+  {
+    "path": "CONTEXT.md",
+    "size_bytes": 1023,
+    "sha256": "7dbe8bc5ff7ed5c4c9ce03955a8ce0f29be7eb14bace65218c66bba8a2a09379"
+  },
+  {
+    "path": "DATASET_PROTOCOL.md",
+    "size_bytes": 2253,
+    "sha256": "ab5117c5cc2bd3573b292004bef7b0bc46b355bf5a574fd9a8a8df1150699b9a"
+  },
+  {
+    "path": "DECISIONS.md",
+    "size_bytes": 1552,
+    "sha256": "0d170d2981d89af354b329592fa3e7e64ee4de413fb639a72a58d9925ecdefbc"
+  },
+  {
+    "path": "EXPERIMENTS.md",
+    "size_bytes": 2507,
+    "sha256": "12232d02a5a8cead634cc0d6ccd5ebf52a0e557aa4dd9d80d53d6f36179e46a3"
+  },
+  {
+    "path": "MILESTONES.md",
+    "size_bytes": 2224,
+    "sha256": "327bbd40c77764da1e70ce3d62f3918fb4c32c199d90efd2bb3b24568d4fcfc9"
+  },
+  {
+    "path": "NOTEBOOKS.md",
+    "size_bytes": 2564,
+    "sha256": "98037f76abefe69e589fe3c7e6d10cda00e992ecb25e4af3cf7ce3043d0a85d6"
+  },
+  {
+    "path": "PLAN.md",
+    "size_bytes": 3013,
+    "sha256": "5df169c41bee166b226d8a20918c62359412dae604d7f0d99f23d4edbf7554e5"
+  },
+  {
+    "path": "PROJECT_BRIEF.md",
+    "size_bytes": 1679,
+    "sha256": "0bbdc00ce2118b53d186baaddcee5e3c9e303a82f5d93bc5b2596e78b1405244"
+  },
+  {
+    "path": "README.md",
+    "size_bytes": 3884,
+    "sha256": "00bd2d2de4dfe0758ab5b48b627853f08ca95373186631b9462027f20db5aedf"
+  },
+  {
+    "path": "REFERENCES.md",
+    "size_bytes": 936,
+    "sha256": "03160899a257118d319a7fb3f9dc457f4b2b9d120bbf102c7d0f840e25de8cd5"
+  },
+  {
+    "path": "RESULTS_PROTOCOL.md",
+    "size_bytes": 2043,
+    "sha256": "8bb9b39a030d86a63f4c0705658fd0ac4ded6fb8364d19e434129e3dc136ed1c"
+  },
+  {
+    "path": "TASK.md",
+    "size_bytes": 2176,
+    "sha256": "36aaa131fc18d8bbad5201f254596b5924191aa5a8b9b8bdda63b1ad343ab6ba"
+  },
+  {
+    "path": "data/.gitkeep",
+    "size_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "models/.gitkeep",
+    "size_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "notebooks/00_environment_dataset_audit.ipynb",
+    "size_bytes": 2414,
+    "sha256": "2f7d3f41372830da763c2dc5b114d335c450487f88ff451c44c1e94ed1a5f637"
+  },
+  {
+    "path": "notebooks/01_train_baseline.ipynb",
+    "size_bytes": 2455,
+    "sha256": "d5480adb908bfbc269300d230b593a74820c7d88db24f9529240085a2754a27a"
+  },
+  {
+    "path": "notebooks/02_train_robust_aug.ipynb",
+    "size_bytes": 2472,
+    "sha256": "d4c1a6537729db05cea9b7d38adf50a37a74e035b6d7fe80ce7771b6df4a68ee"
+  },
+  {
+    "path": "notebooks/03_evaluate_all_splits.ipynb",
+    "size_bytes": 2478,
+    "sha256": "92d2f50c14dd54c4c2f6545a1a35e4e1d937101d3f3946086f14f46b7ded4013"
+  },
+  {
+    "path": "notebooks/04_export_onnx_benchmark.ipynb",
+    "size_bytes": 2413,
+    "sha256": "96193e729da1366688971806afc0b1a64772df6be6f7c65d67e40679b3d21eb1"
+  },
+  {
+    "path": "results/.gitkeep",
+    "size_bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "scripts/check_utf8.py",
+    "size_bytes": 2299,
+    "sha256": "3592a32672d20e7d8dde47dd60ec0e25522e1f9ea996ed944bfba37f430715fb"
+  }
+]
