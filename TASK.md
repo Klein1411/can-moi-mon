@@ -24,15 +24,20 @@
 
 ## M1 — Dataset audit
 
-- [ ] Tải `tanganke/gtsrb`.
-- [ ] Xác minh đủ 9 split.
-- [ ] Xác minh mỗi split có 43 lớp.
-- [ ] Kiểm tra schema, label names và image mode.
-- [ ] Kiểm tra phân bố lớp train.
-- [ ] Tạo train/validation stratified với seed 42.
-- [ ] Không đụng vào test split khi tuning.
-- [ ] Lưu `results/dataset_audit.json`.
-- [ ] Lưu biểu đồ phân bố lớp.
+- [x] Tải `tanganke/gtsrb`.
+- [x] Xác minh đủ 9 split.
+- [x] Xác minh mỗi split có 43 lớp.
+- [x] Kiểm tra schema, label names và image mode.
+- [x] Kiểm tra phân bố lớp train.
+- [x] Tạo train/validation stratified với seed 42.
+- [x] Không đụng vào test split khi tuning.
+- [x] Lưu `results/dataset_audit.json`.
+- [x] Lưu biểu đồ phân bố lớp.
+
+## Progress Log
+
+- 2026-07-14: M1 dataset audit PASS sau khi người dùng chạy thủ công notebook 00 và lưu artifact.
+- 2026-07-14: Đã triển khai source `notebooks/01_train_baseline.ipynb` cho M2_SOURCE_READY; chưa chạy notebook, chưa training và chưa tạo metric/checkpoint giả.
 
 ## M2 — Baseline
 
