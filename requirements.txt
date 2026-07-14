@@ -1,0 +1,12 @@
+# Python 3.11 — dependency chung cho audit, train, evaluation và benchmark.
+datasets==4.8.4
+scikit-learn>=1.5,<2
+pandas>=2.2,<3
+matplotlib>=3.9,<4
+Pillow>=10,<13
+psutil>=6,<8
+tqdm>=4.66,<5
+jupyterlab>=4.4,<5
+ipykernel>=6.29,<7
+onnx>=1.17,<2
+onnxruntime>=1.20,<2

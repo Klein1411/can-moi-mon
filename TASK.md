@@ -2,11 +2,25 @@
 
 ## M0 — Khởi tạo
 
-- [ ] Tạo môi trường Python 3.11.
-- [ ] Chốt dependency.
-- [ ] Kiểm tra GPU/CPU/RAM.
-- [ ] Kiểm tra toàn bộ file text dùng UTF-8.
-- [ ] Hoàn thiện `.gitignore`.
+- [x] Tạo môi trường Python 3.11.
+- [x] Chốt dependency.
+- [x] Kiểm tra GPU/CPU/RAM.
+- [x] Kiểm tra toàn bộ file text dùng UTF-8.
+- [x] Hoàn thiện `.gitignore`.
+
+## Progress Log
+
+- 2026-07-14: Đã tạo `.venv` Python 3.11.9, thêm dependency chung và profile CUDA 12.8, triển khai notebook audit M0/M1, kiểm tra UTF-8 và kiểm tra tĩnh notebook.
+- 2026-07-14: Chưa cài xong package PyTorch/CUDA do index wheel không phản hồi trong thời gian kiểm soát; chưa chạy notebook.
+- 2026-07-14: Đã cài `ipykernel` vào `.venv` và đăng ký kernel `robust-gtsrb-lite` với display name `Python 3.11 (robust-gtsrb-lite)`.
+- 2026-07-14: Đã cài PyTorch CUDA 12.8 thành công, cài các dependency còn lại từ `requirements.txt`, kiểm tra import/CPU-GPU bằng terminal và chốt `requirements-lock.txt`.
+- 2026-07-14: M0 package-import gate: PASS.
+
+## Next
+
+- Người dùng chạy thủ công `notebooks/00_environment_dataset_audit.ipynb` bằng kernel `robust-gtsrb-lite`.
+- Chưa đánh dấu M1 hoàn thành.
+- Notebook nên chọn kernel `robust-gtsrb-lite`.
 
 ## M1 — Dataset audit
 
